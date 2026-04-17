@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee3bea9e-f74c-4c7c-afb9-986b9cdbf697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/data_sources.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dbo/dbo_events.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dbo/dbo_sessions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/abs/accounts_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/abs/clients_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/abs/transactions_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/aml/alerts_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/card/auth_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/card/cards_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/card/clearing_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/dbo/events_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/dbo/session_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/loan/agreement_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/loan/application_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeding/loan/schedule_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/init/postgres1/001-create-abs-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/init/postgres2/001-create-loan-system-tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/init/postgres3/001-create-card-processing-tables.sql" afterDir="false" />
+    <list default="true" id="ee3bea9e-f74c-4c7c-afb9-986b9cdbf697" name="Changes" comment="initial comment&#10;&#10;(cherry picked from commit 7bcef226c3e6d68d13fb38f2ce48216abe22b6c8)">
+      <changelist_data name="ZxZxZ154" email="kyrlukov205@gmail.com" date="1776441849000" automatic="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZxZxZ143"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:ZxZxZ143/5-data-sources-diff-db.git",
+    "accountId": "306f3c6b-01a2-414f-8373-35b218f69736"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,38 +40,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.accounts_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.agreement_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.application_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.auth_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cards_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clearing_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clients_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.db.executor&quot;: &quot;Run&quot;,
-    &quot;Python.events_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.schedule_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.session_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transactions_fake_data.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kyrlu/PycharmProjects/data_sources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.accounts_fake_data.executor": "Run",
+    "Python.agreement_fake_data.executor": "Run",
+    "Python.alerts_fake_data.executor": "Run",
+    "Python.application_fake_data.executor": "Run",
+    "Python.auth_fake_data.executor": "Run",
+    "Python.cards_fake_data.executor": "Run",
+    "Python.clearing_fake_data.executor": "Run",
+    "Python.clients_fake_data.executor": "Run",
+    "Python.db.executor": "Run",
+    "Python.events_fake_data.executor": "Run",
+    "Python.schedule_fake_data.executor": "Run",
+    "Python.session_fake_data.executor": "Run",
+    "Python.transactions_fake_data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kyrlu/PycharmProjects/data_sources",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kyrlu\PycharmProjects\data_sources" />
@@ -111,23 +99,23 @@
       <option name="presentableId" value="Default" />
       <updated>1776416999673</updated>
       <workItem from="1776417000872" duration="5955000" />
-      <workItem from="1776440597443" duration="817000" />
+      <workItem from="1776440597443" duration="2799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_sources$cards_fake_data.coverage" NAME="cards_fake_data Coverage Results" MODIFIED="1776437542669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seeding/card" />
@@ -142,5 +130,6 @@
     <SUITE FILE_PATH="coverage/data_sources$accounts_fake_data.coverage" NAME="accounts_fake_data Coverage Results" MODIFIED="1776437140304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seeding/abs" />
     <SUITE FILE_PATH="coverage/data_sources$auth_fake_data.coverage" NAME="auth_fake_data Coverage Results" MODIFIED="1776437639127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seeding/card" />
     <SUITE FILE_PATH="coverage/data_sources$schedule_fake_data.coverage" NAME="schedule_fake_data Coverage Results" MODIFIED="1776437478814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seeding/loan" />
+    <SUITE FILE_PATH="coverage/data_sources$alerts_fake_data.coverage" NAME="alerts_fake_data Coverage Results" MODIFIED="1776441644778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seeding/aml" />
   </component>
 </project>
