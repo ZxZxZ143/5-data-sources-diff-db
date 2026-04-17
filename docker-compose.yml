@@ -1,0 +1,47 @@
+services:
+  postgres1:
+    image: postgres:16
+    container_name: ${POSTGRES1_CONTAINER_NAME}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES1_USER}
+      POSTGRES_PASSWORD: ${POSTGRES1_PASSWORD}
+      POSTGRES_DB: ${POSTGRES1_DB}
+    ports:
+      - "${POSTGRES1_PORT}:5432"
+    volumes:
+      - postgres1_data:/var/lib/postgresql/data
+      - ./sql/init/postgres1:/docker-entrypoint-initdb.d
+
+  postgres2:
+    image: postgres:16
+    container_name: ${POSTGRES2_CONTAINER_NAME}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES2_USER}
+      POSTGRES_PASSWORD: ${POSTGRES2_PASSWORD}
+      POSTGRES_DB: ${POSTGRES2_DB}
+    ports:
+      - "${POSTGRES2_PORT}:5432"
+    volumes:
+      - postgres2_data:/var/lib/postgresql/data
+      - ./sql/init/postgres2:/docker-entrypoint-initdb.d
+
+  postgres3:
+    image: postgres:16
+    container_name: ${POSTGRES3_CONTAINER_NAME}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES3_USER}
+      POSTGRES_PASSWORD: ${POSTGRES3_PASSWORD}
+      POSTGRES_DB: ${POSTGRES3_DB}
+    ports:
+      - "${POSTGRES3_PORT}:5432"
+    volumes:
+      - postgres3_data:/var/lib/postgresql/data
+      - ./sql/init/postgres3:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres1_data:
+  postgres2_data:
+  postgres3_data:
